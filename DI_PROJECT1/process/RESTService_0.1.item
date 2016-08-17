@@ -202,7 +202,7 @@
         <nodes name="firstname" type="id_String" outgoingConnections="//@node.3/@nodeData/@connections.1" xpath="row1/firstname"/>
         <nodes name="lastname" type="id_String" outgoingConnections="//@node.3/@nodeData/@connections.2" xpath="row1/lastname"/>
       </inputTrees>
-      <outputTrees name="all">
+      <outputTrees activateCondensedTool="true" name="all" allInOne="true">
         <nodes name="body" expression="" type="id_Document" xpath="all/body">
           <children xsi:type="TalendXMLMap:OutputTreeNode" name="customers" expression="" type="id_String" xpath="all.body:/customers" main="true">
             <children xsi:type="TalendXMLMap:OutputTreeNode" name="customer" expression="" type="id_String" xpath="all.body:/customers/customer" loop="true" main="true">
