@@ -156,11 +156,11 @@
     <elementParameter field="TEXT" name="SERVICE_NAME" value="&quot;RESTService&quot;"/>
     <elementParameter field="CHECK" name="SERVICE_ACTIVITY_MONITOR" value="true"/>
     <elementParameter field="CHECK" name="NEED_AUTH" value="true"/>
-    <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" value="BASIC"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" value="SAML"/>
     <elementParameter field="TEXT" name="AUTH_USERNAME" value="&quot;mysyncope&quot;"/>
     <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="3vVYYHjEfuugjSU1VtLTGg=="/>
     <elementParameter field="TEXT" name="AUTH_BEARER_TOKEN" value="&quot;&quot;" show="false"/>
-    <elementParameter field="CHECK" name="NEED_AUTHORIZATION" value="false" show="false"/>
+    <elementParameter field="CHECK" name="NEED_AUTHORIZATION" value="false"/>
     <elementParameter field="TEXT" name="ROLE" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="USE_BUSINESS_CORRELATION" value="false"/>
     <elementParameter field="TEXT" name="CORRELATION_VALUE" value="&quot;&quot;" show="false"/>
