@@ -161,7 +161,7 @@
     <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="3vVYYHjEfuugjSU1VtLTGg=="/>
     <elementParameter field="TEXT" name="AUTH_BEARER_TOKEN" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="NEED_AUTHORIZATION" value="true"/>
-    <elementParameter field="TEXT" name="ROLE" value="&quot;role2&quot;"/>
+    <elementParameter field="TEXT" name="ROLE" value="&quot;myrole&quot;"/>
     <elementParameter field="CHECK" name="USE_BUSINESS_CORRELATION" value="false"/>
     <elementParameter field="TEXT" name="CORRELATION_VALUE" value="&quot;&quot;" show="false"/>
     <elementParameter field="CHECK" name="CHECK_SERVER_IDENTITY" value="true"/>
