@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<TalendMetadata:MDMConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_gLZ98GYCEeafQfjAzfu7SA" name="myMDM" label="myMDM" version="s60" Username="user" Password="ujQfjOu3mq4=" Datamodel="PROVISIONING" Datacluster="PROVISIONING" serverUrl="http://localhost:8180/talendmdm/services/soap"/>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:org.talend.cwm.xml="http://www.talend.org/cwm/resource/xml/2010">
+  <TalendMetadata:MDMConnection xmi:id="_gLZ98GYCEeafQfjAzfu7SA" name="myMDM" label="myMDM" dataPackage="_30Jw4GYCEeafQfjAzfu7SA" version="s60" Username="user" Password="ujQfjOu3mq4=" Datamodel="PROVISIONING" Datacluster="PROVISIONING" serverUrl="http://localhost:8180/talendmdm/services/soap">
+    <schemas xmi:id="_s7-tcGYCEeafQfjAzfu7SA" label="UserIn" LoopExpression="" LoopLimit="50">
+      <conceptTargets xmi:id="_vUT2wGYCEeafQfjAzfu7SA" targetName="User" RelativeLoopExpression="/username"/>
+    </schemas>
+  </TalendMetadata:MDMConnection>
+  <org.talend.cwm.xml:TdXmlSchema xmi:id="_30Jw4GYCEeafQfjAzfu7SA" name="PROVISIONING" dataManager="_gLZ98GYCEeafQfjAzfu7SA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_30Jw4WYCEeafQfjAzfu7SA" id="_vlaN0GYCEeafQfjAzfu7SA" label="UserIn"/>
+  </org.talend.cwm.xml:TdXmlSchema>
+</xmi:XMI>
