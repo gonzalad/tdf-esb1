@@ -6,6 +6,6 @@
     </schemas>
   </TalendMetadata:MDMConnection>
   <org.talend.cwm.xml:TdXmlSchema xmi:id="_30Jw4GYCEeafQfjAzfu7SA" name="PROVISIONING" dataManager="_gLZ98GYCEeafQfjAzfu7SA">
-    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_30Jw4WYCEeafQfjAzfu7SA" id="_vlaN0GYCEeafQfjAzfu7SA" label="UserIn"/>
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_30Jw4WYCEeafQfjAzfu7SA" properties="deleted&#xA;&#xA;true&#xA;&#xA;" id="_vlaN0GYCEeafQfjAzfu7SA" label="UserIn"/>
   </org.talend.cwm.xml:TdXmlSchema>
 </xmi:XMI>
