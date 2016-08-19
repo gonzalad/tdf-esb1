@@ -4,8 +4,12 @@
     <schemas xmi:id="_s7-tcGYCEeafQfjAzfu7SA" label="UserIn" LoopExpression="" LoopLimit="50">
       <conceptTargets xmi:id="_vUT2wGYCEeafQfjAzfu7SA" targetName="User" RelativeLoopExpression="/username"/>
     </schemas>
+    <schemas xmi:id="_ASdZ8GYDEeafQfjAzfu7SA" label="UserIn" LoopExpression="" LoopLimit="50">
+      <conceptTargets xmi:id="_OBf80GYDEeafQfjAzfu7SA" targetName="username" RelativeLoopExpression="username"/>
+    </schemas>
   </TalendMetadata:MDMConnection>
   <org.talend.cwm.xml:TdXmlSchema xmi:id="_30Jw4GYCEeafQfjAzfu7SA" name="PROVISIONING" dataManager="_gLZ98GYCEeafQfjAzfu7SA">
     <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_30Jw4WYCEeafQfjAzfu7SA" properties="deleted&#xA;&#xA;true&#xA;&#xA;" id="_vlaN0GYCEeafQfjAzfu7SA" label="UserIn"/>
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Pw9IQGYDEeafQfjAzfu7SA" id="_Pw8hMGYDEeafQfjAzfu7SA" label="UserIn"/>
   </org.talend.cwm.xml:TdXmlSchema>
 </xmi:XMI>
