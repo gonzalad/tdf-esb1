@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TalendMetadata:MDMConnection xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmi:id="_gLZ98GYCEeafQfjAzfu7SA" version="s60" Username="user" Password="ujQfjOu3mq4=" Datamodel="PROVISIONING" Datacluster="PROVISIONING" serverUrl="http://localhost:8180/talendmdm/services/soap"/>
